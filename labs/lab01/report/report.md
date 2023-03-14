@@ -12,7 +12,7 @@ toc-title: "Содержание"
 bibliography: bib/cite.bib
 csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 
-## Pdf output format
+## Pdf output formaSSSt
 toc: true # Table of contents
 toc-depth: 2
 lof: true # List of figures
@@ -84,6 +84,8 @@ header-includes:
 -   Для перехода к раскладке окон с табами нажмите _Win+w_.
 
 ### Установка системы на диск
+
+![pictutre](image/placeimg_800_600_tech.jpg)
 
 -   Выберите язык интерфейса и перейдите к настройкам установки операционной системы.
 -   При необходимости скорректируйте часовой пояс, раскладку клавиатуры (рекомендуется в качестве языка по умолчанию указать английский язык).
