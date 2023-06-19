@@ -22,10 +22,10 @@ aspectratio: 169
 section-titles: true
 theme: metropolis
 header-includes:
- - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
- - '\makeatletter'
- - '\beamer@ignorenonframefalse'
- - '\makeatother'
+  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
+  - '\makeatletter'
+  - '\beamer@ignorenonframefalse'
+  - '\makeatother'
 ---
 
 # Информация
@@ -35,17 +35,17 @@ header-includes:
 :::::::::::::: {.columns align=center}
 ::: {.column width="70%"}
 
-  * Кулябов Дмитрий Сергеевич
-  * д.ф.-м.н., профессор
-  * профессор кафедры прикладной информатики и теории вероятностей
-  * Российский университет дружбы народов
-  * [kulyabov-ds@rudn.ru](mailto:kulyabov-ds@rudn.ru)
-  * <https://yamadharma.github.io/ru/>
+- Кулябов Дмитрий Сергеевич
+- д.ф.-м.н., профессор
+- профессор кафедры прикладной информатики и теории вероятностей
+- Российский университет дружбы народов
+- [kulyabov-ds@rudn.ru](mailto:kulyabov-ds@rudn.ru)
+- <https://yamadharma.github.io/ru/>
 
 :::
 ::: {.column width="30%"}
 
-![](./image/kulyabov.jpg)
+](./image/kulyabov.jpg)
 
 :::
 ::::::::::::::
@@ -74,8 +74,8 @@ header-includes:
 
 - Процессор `pandoc` для входного формата Markdown
 - Результирующие форматы
-	- `pdf`
-	- `html`
+  - `pdf`
+  - `html`
 - Автоматизация процесса создания: `Makefile`
 
 # Создание презентации
@@ -111,8 +111,9 @@ theme: metropolis
 - Тема задаётся в файле `Makefile`
 
 ```make
-REVEALJS_THEME = beige 
+REVEALJS_THEME = beige
 ```
+
 # Результаты
 
 ## Получающиеся форматы
@@ -151,20 +152,19 @@ REVEALJS_THEME = beige
 - Необходимы логические связки между слайдами
 - Необходимо показать понимание материала
 
-
 ## Итоговый слайд
 
 - Запоминается последняя фраза. © Штирлиц
 - Главное сообщение, которое вы хотите донести до слушателей
-- Избегайте использовать последний слайд вида *Спасибо за внимание*
+- Избегайте использовать последний слайд вида _Спасибо за внимание_
 
 # Рекомендации
 
 ## Принцип 10/20/30
 
-  - 10 слайдов
-  - 20 минут на доклад
-  - 30 кегль шрифта
+- 10 слайдов
+- 20 минут на доклад
+- 30 кегль шрифта
 
 ## Связь слайдов
 
@@ -207,4 +207,3 @@ REVEALJS_THEME = beige
 - Текст используется, если все предыдущие способы отображения информации не подошли
 
 :::
-
