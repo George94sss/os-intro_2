@@ -1,0 +1,33 @@
+---
+## Front matter
+lang: ru-RU
+title: Презентация по лабораторной работе №10
+subtitle: "Программирование в командном процессоре ОС UNIX. Командные файлы"
+author:
+  - Сагдеров Камал
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 12.04.2023
+
+## i18n babel
+babel-lang: russian
+babel-otherlangs: english
+
+## Formatting pdf
+toc: false
+toc-title: Содержание
+slide_level: 2
+aspectratio: 169
+section-titles: true
+theme: metropolis
+header-includes:
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
+ - '\makeatletter'
+ - '\beamer@ignorenonframefalse'
+ - '\makeatother'
+---
+
+## Цель работы
+
+Изучить основы программирования в оболочке ОС UNIX/Linux. Научиться писать небольшие командные файлы
+
